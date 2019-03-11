@@ -1,0 +1,18 @@
+[17-Dec-2018 18:10:54 America/Mexico_City] PHP Warning:  include(/home/jogs78/public_html/ittg/telebach/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/jogs78/public_html/ittg/telebach/vendor/composer/ClassLoader.php on line 414
+[17-Dec-2018 18:10:54 America/Mexico_City] PHP Warning:  include(): Failed opening '/home/jogs78/public_html/ittg/telebach/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/usr/local/lib/php:/home/jogs78/public_html/sistema/extras') in /home/jogs78/public_html/ittg/telebach/vendor/composer/ClassLoader.php on line 414
+[17-Dec-2018 18:10:54 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+Stack trace:
+#0 /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php(734): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->build('App\\Http\\Kernel', Array)
+#2 /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(697): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#3 /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php(230): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#4 /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Container\C in /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 734
+[17-Dec-2018 18:11:57 America/Mexico_City] PHP Warning:  include(/home/jogs78/public_html/ittg/telebach/vendor/composer/../../app/Http/Kernel.php): failed to open stream: No such file or directory in /home/jogs78/public_html/ittg/telebach/vendor/composer/ClassLoader.php on line 414
+[17-Dec-2018 18:11:57 America/Mexico_City] PHP Warning:  include(): Failed opening '/home/jogs78/public_html/ittg/telebach/vendor/composer/../../app/Http/Kernel.php' for inclusion (include_path='.:/usr/local/lib/php:/home/jogs78/public_html/sistema/extras') in /home/jogs78/public_html/ittg/telebach/vendor/composer/ClassLoader.php on line 414
+[17-Dec-2018 18:11:57 America/Mexico_City] PHP Fatal error:  Uncaught ReflectionException: Class App\Http\Kernel does not exist in /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php:734
+Stack trace:
+#0 /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php(734): ReflectionClass->__construct('App\\Http\\Kernel')
+#1 /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php(629): Illuminate\Container\Container->build('App\\Http\\Kernel', Array)
+#2 /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(697): Illuminate\Container\Container->make('App\\Http\\Kernel', Array)
+#3 /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php(230): Illuminate\Foundation\Application->make('App\\Http\\Kernel', Array)
+#4 /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php(731): Illuminate\Container\C in /home/jogs78/public_html/ittg/telebach/vendor/laravel/framework/src/Illuminate/Container/Container.php on line 734

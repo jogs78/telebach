@@ -1,0 +1,111 @@
+body{
+	margin: 0px;
+	/*background: #c1c1c1;*/
+	/*color blanco del boton submit accesar */
+	background: #D5F8F9;
+}
+.myheader{
+	display: flex;
+
+	/*background: #6a2020;*/
+	/* color gris en la cabezera*/
+	/*background: #c1c1c1;*/
+	/*color verde azulado*/
+	background: #008080;
+	font-family: tahoma; 
+	font-size: 17px;
+	color:#A5A2A1;
+	justify-content:space-around;
+	align-items:center;
+}
+
+.myheader h2{
+	/*color:#f27b04;*/
+	/*color negro nombre del sistema*/
+	/* color: #c733c9;*/
+	 color: #000000;
+	
+}
+.myheader h3{
+	/*color: #EEECED;*/
+	/*color rojo*/
+	/*color: #DE0814;*/
+	/*COLOR NEGRO DEL NOMBRE DE LA ESCUELA*/
+	
+	color: #000000;
+}
+.texto{
+	text-align: center;
+	width: 60%;
+	padding-right:15%;
+}
+.sep img{
+	height:70%;
+	width:25%;
+}
+.dgeti img{
+	padding-left:10%;
+	width: 25%;
+}
+/*logo de para cada usuario al iniciar sesion*/
+.logo{
+	margin-top: 100px;
+	display: flex;
+	align-items:center;
+	justify-content:center;
+}
+.logo1{
+	
+	
+	padding-left:70%;
+	width: 50%;
+}
+
+
+.logo img{
+	width: 10%;
+}
+
+
+/*CONTENIDO INDEX*/
+.content{
+	margin-top: 20px;
+	height: 70%;
+	font-family: verdana; 
+	/*color de los nombres de las cabezeras de para inicio de sesion*/
+	color:black;
+}
+.content a{
+	text-decoration: none;
+}
+.content div{
+	margin-bottom: 40px;
+	height: 50px;
+}
+.content h3{
+	text-align: center;
+}
+.contenedorGeneral{
+	color: #000;
+	font-family: Arial;
+}
+.docente{
+	text-align: center;
+}
+.admin{
+	padding-left: 600px;
+}
+.alumno{
+	text-align: right;
+	padding-right: 650px;
+}
+.padres{
+	text-align: right;
+}
+.log img{
+	width: 5%;
+	position: relative;
+	top:20px;
+}
+
+
